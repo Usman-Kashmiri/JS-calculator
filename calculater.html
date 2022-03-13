@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator with Html, CSS & JS</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+    <form class="calculator-container" name="calculator">
+        <!-- Calculator Input Field -->
+        <input class="screen" type="text" name="input">
+        <!-- Calculator Buttons -->
+        <div class="btns">
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value =''">C</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='('">(</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +=')'">)</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='%'">%</div>
+            <div class="btn" onClick="document.calculator.input.value +='7'">7</div>
+            <div class="btn" onClick="document.calculator.input.value +='8'">8</div>
+            <div class="btn" onClick="document.calculator.input.value +='9'">9</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='+'">+</div>
+            <div class="btn" onClick="document.calculator.input.value +='4'">4</div>
+            <div class="btn" onClick="document.calculator.input.value +='5'">5</div>
+            <div class="btn" onClick="document.calculator.input.value +='6'">6</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='-'">-</div>
+            <div class="btn" onClick="document.calculator.input.value +='1'">1</div>
+            <div class="btn" onClick="document.calculator.input.value +='2'">2</div>
+            <div class="btn" onClick="document.calculator.input.value +='3'">3</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='/'">&divide;</div>
+            <div class="btn" onClick="document.calculator.input.value +='.'">.</div>
+            <div class="btn" onClick="document.calculator.input.value +='0'">0</div>
+            <div class="btn" onClick="document.calculator.input.value =eval(calculator.input.value)">=</div>
+            <div class="btn" id="orangebtn" onClick="document.calculator.input.value +='*'">&times;</div>
+        </div>
+    </form>
+</body>
+
+</html>
