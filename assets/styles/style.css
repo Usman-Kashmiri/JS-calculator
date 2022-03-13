@@ -37,7 +37,7 @@ body {
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    background-color: rgb(66, 66, 66);
+    background-color: #424242;
     color: white;
     font-size: 26px;
     font-weight: 900;
@@ -46,11 +46,11 @@ body {
 }
 
 #orangebtn {
-    background-color: #ff9d00;
+    background-color: #fa980b;
 }
 
 #orangebtn:hover {
-    background-color: hsla(37, 100%, 50%, 0.9);
+    background-color: rgba(250, 150, 11, 0.86);
 }
 
 .btn:hover {
